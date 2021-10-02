@@ -48,7 +48,7 @@ const Drawer = ({ open = false, toggleDrawer = () => { } }) => {
             </IconButton>
         </Toolbar>
         <Divider />
-        <List>{mainListItems}</List>
+        <List className='drawer-list-items'>{mainListItems}</List>
     </DrawerBase>
 }
 
